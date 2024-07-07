@@ -1,0 +1,129 @@
+/* principal.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#administrar-remeras-heading {
+    text-align: center;
+}
+
+#form_agregar {
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-left: -100px;
+    float: right;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+    
+}
+
+#table_original,
+#table_2 {
+    margin-left: 50px;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+ td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Borde de las celdas de datos */
+    padding: 8px; /* Espaciado interno en las celdas de datos */
+    text-align: center; /* Alineación del texto al centro */
+    
+}
+th {
+    background-color: #5aa8fc; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 10px; /* Espaciado interno en el encabezado */
+}
+
+
+
+#form_mostrar,
+#form_ordenar_nombre,
+#form_ordenar_talle,
+#form_Ordenar_Inverso {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#volver_href {
+    position: sticky  ;
+    top: 850px;
+    left: 1650px;
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #5aa8fc;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+.invisible {
+    display: none;
+}
+
+input[type="text"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"][name="eliminar_remera"] {
+    position: relative;
+    background-color: #dc3545; /* Color de fondo del botón Eliminar */
+    color: #fff; /* Color del texto en el botón Eliminar */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"][name="eliminar_remera"]:hover {
+    background-color: #bd2130; /* Cambio de color al pasar el ratón sobre el botón */
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Color de fondo del botón Agregar Remera */
+    color: #fff; /* Color del texto en el botón Agregar Remera */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Cambio de color al pasar el ratón sobre el botón */
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+h3{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
